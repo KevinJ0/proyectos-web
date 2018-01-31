@@ -19,8 +19,8 @@ body {
 }
 
 .principal {
-  background: #F44336;
-  border-top: 20px solid #D32F2F;
+  background: #b136f4;
+  border-top: 20px solid #9e2cd4;
   color: #fff;
   padding: 50px 0;
   width: 100%;
@@ -44,7 +44,7 @@ body {
 
 .principal .formulario .boton {
   background: none;
-  border: 1px solid #D32F2F;
+  border: 2px solid #b772d7;
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -52,7 +52,8 @@ body {
 }
 
 .principal .formulario .boton:hover {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  transition: 600ms all ease;
 }
 
 /* - Tareas - */
