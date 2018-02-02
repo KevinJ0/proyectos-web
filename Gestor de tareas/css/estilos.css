@@ -38,11 +38,12 @@ body {
 }
 
 .principal .formulario input[type=text].error {
-  border: 5px solid #D32F2F;
-  color: red;
+  transition: 150ms all ease;
+  border: 4px solid #D32F2F;
 }
 
 .principal .formulario .boton {
+  cursor: pointer;
   background: none;
   border: 2px solid #b772d7;
   color: #fff;
